@@ -6,49 +6,49 @@ const Choices = require("inquirer/lib/objects/choices");
 // TODO: Create an array of questions for user input
 const questions = [
 {
+    name: 'Title',
     type: 'input',
     message: 'What is the title of your project?',
-    name: 'Title',
 },
 {
+    name: 'Description',
     type: 'input',
     message: 'Describe your project',
-    name: 'Description',
 },
 {
+    name: 'Installation',
     type: 'input',
     message: 'Enter any installation instructions',
-    name: 'Installation',
 },
 {
+    name: 'Usage',
     type: 'input',
     message: 'Enter any relevant usage information',
-    name: 'Usage',
 },
 {
+    name: 'test',
     type: 'input',
     message: 'Enter instructions for testing',
-    name: 'test',
 },
 {
+    name: 'contribute',
     type: 'input',
     message: 'Enter instructions for contribution',
-    name: 'contribute',
 },
 {
+    name: 'GitHub',
     type: 'input',
     message: 'Enter your GitHub username',
-    name: 'GitHub',
 },
 {
+    name: 'Email',
     type: 'input',
     message: 'Enter your Email',
-    name: 'Email',
 },
 {
+    name: 'license',
     type: 'list',
     message: 'If applicable, please select a license below',
-    name: 'license',
     Choices: ['MIT', 'Apache', 'BSD', 'none']
 },
 ];
